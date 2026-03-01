@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" rx="15" fill="#f8fafc"/>
+  
+  <!-- Headers -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0f172a">CiviSmart Gov: Operational Workflow</text>
+  
+  <!-- Entities -->
+  <rect x="50" y="100" width="150" height="60" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="125" y="135" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1e40af">CITIZEN</text>
+  
+  <rect x="325" y="100" width="150" height="60" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+  <text x="400" y="135" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#334155">SYSTEM / AI</text>
+  
+  <rect x="600" y="100" width="150" height="60" rx="10" fill="#fffbeb" stroke="#92400e" stroke-width="2"/>
+  <text x="675" y="135" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#92400e">ADMIN</text>
+  
+  <rect x="325" y="300" width="150" height="60" rx="10" fill="#f0fdf4" stroke="#166534" stroke-width="2"/>
+  <text x="400" y="335" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#166534">OFFICER</text>
+  
+  <!-- Flow Lines -->
+  <path d="M200 130 H325" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M475 130 H600" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M400 160 V300" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M325 330 H125 V160" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Labels -->
+  <text x="260" y="120" text-anchor="middle" font-family="Arial" font-size="10" fill="#64748b">Report Issue</text>
+  <text x="540" y="120" text-anchor="middle" font-family="Arial" font-size="10" fill="#64748b">Review &amp; Assign</text>
+  <text x="410" y="230" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Dispatch Tasks</text>
+  <text x="180" y="320" text-anchor="middle" font-family="Arial" font-size="10" fill="#64748b">Resolve &amp; Evidence</text>
+  
+  <!-- Marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8" />
+    </marker>
+  </defs>
+</svg>

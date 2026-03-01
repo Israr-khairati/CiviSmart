@@ -1,0 +1,161 @@
+[{
+  "_id": {
+    "$oid": "695c8c7e96137a0c200c86f0"
+  },
+  "name": "Israr K",
+  "adharNumber": "123456789012",
+  "citizenId": "CIT-2026-0001",
+  "mobileNumber": "9738511154",
+  "password": "$2b$10$b/w2MGxK/sMPY.ew71x58O76CGxGGn0V5q0rN4THoA7tgaLo5WBne",
+  "userType": "citizen",
+  "department": "None",
+  "createdAt": {
+    "$date": "2026-01-06T04:15:58.315Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-06T04:15:58.315Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695c8dbcb216f817ffc40b14"
+  },
+  "name": "System Admin",
+  "adharNumber": "admin",
+  "citizenId": "ADM-2026-0001",
+  "mobileNumber": "0000000000",
+  "password": "$2b$10$2BzCpN4lbQ.8tyyEG1VdA.ShKFsKZLxT885m0zN7nXgJZkM3AAO0C",
+  "userType": "admin",
+  "department": "None",
+  "createdAt": {
+    "$date": "2026-01-06T04:21:16.083Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-06T04:21:16.083Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695e0e9fad162fb857128556"
+  },
+  "name": "Raj D",
+  "adharNumber": "987654321012",
+  "mobileNumber": "7022199119",
+  "password": "$2b$10$wz/vIp.DNaTHVLbBJz3DZOJIiJnT0HsgM8OM5P85PcRrpNiHOaZIG",
+  "userType": "officer",
+  "department": "Road",
+  "createdAt": {
+    "$date": "2026-01-07T07:43:27.495Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-22T16:49:08.174Z"
+  },
+  "__v": 0,
+  "permissions": {
+    "canRead": true,
+    "canWrite": true,
+    "canDelete": false
+  }
+},
+{
+  "_id": {
+    "$oid": "695e0f47430ad434fccc707a"
+  },
+  "name": "Vaibhav",
+  "adharNumber": "656565656565",
+  "mobileNumber": "9619574102",
+  "password": "$2b$10$syJyge/XEDn4B.j3QTa3J.7RnNIpOqlhSbbBpNhQIF5KdI5fDLWDS",
+  "userType": "officer",
+  "department": "Water",
+  "createdAt": {
+    "$date": "2026-01-07T07:46:15.022Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-22T05:36:44.037Z"
+  },
+  "__v": 0,
+  "permissions": {
+    "canDelete": false,
+    "canRead": true,
+    "canWrite": false
+  }
+},
+{
+  "_id": {
+    "$oid": "695e618a414951f4f40f073a"
+  },
+  "name": "Omkar",
+  "adharNumber": "787878787878",
+  "mobileNumber": "8431709557",
+  "password": "$2b$10$Pg6RoqCjN6iOIKroI5b29OG6k9otCzDpyeUIazY1WJF7OT81gec4O",
+  "userType": "officer",
+  "department": "Electricity",
+  "createdAt": {
+    "$date": "2026-01-07T13:37:14.297Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T13:37:14.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695e6228414951f4f40f0743"
+  },
+  "name": "Naveen",
+  "adharNumber": "121212121212",
+  "mobileNumber": "8431147533",
+  "password": "$2b$10$jsN6BC3XZ.zU5320vXtGvumRGML4V.IXjQYcHuDu8LFUMrJwDjf2m",
+  "userType": "officer",
+  "department": "Garbage",
+  "createdAt": {
+    "$date": "2026-01-07T13:39:52.965Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T13:39:52.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695e6586414951f4f40f074b"
+  },
+  "name": "santosh",
+  "adharNumber": "987654321111",
+  "mobileNumber": "7892585798",
+  "password": "$2b$10$ncHaWHchpT3.7hIoJemYneJ/k1Swnrz52lqkmaWEqo.xfO77syPkC",
+  "userType": "officer",
+  "department": "Sewage",
+  "createdAt": {
+    "$date": "2026-01-07T13:54:14.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T13:54:26.849Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697f55d90b556ea9d23c2cc8"
+  },
+  "name": "Demo Citizen",
+  "adharNumber": "citizen_demo",
+  "mobileNumber": "3333333333",
+  "password": "$2b$10$nGEG7ZdS2YgiHKQVD5boQ.PapTqz5D6I3jnnGMECg22vgmHOqe2p6",
+  "userType": "citizen",
+  "department": "None",
+  "permissions": {
+    "canRead": true,
+    "canWrite": true,
+    "canDelete": false
+  },
+  "createdAt": {
+    "$date": "2026-02-01T13:32:09.044Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-01T13:32:09.044Z"
+  },
+  "__v": 0
+}]
